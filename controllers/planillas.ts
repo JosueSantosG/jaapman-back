@@ -20,6 +20,7 @@ export const getPlanillas = async (req: Request, res: Response) => {
     }
 };
 
+
 // Se muestran los datos de la localidad y número de personas
 export const getLocalidadxNumPersona = async (req: Request, res: Response) => {
     const { id_usuarioRol } = req.params;
